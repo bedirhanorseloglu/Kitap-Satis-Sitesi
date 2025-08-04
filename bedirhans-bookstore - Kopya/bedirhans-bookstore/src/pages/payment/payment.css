@@ -1,0 +1,102 @@
+/* Genel ödeme stili */
+.payment {
+    padding: 30px; /* Etrafındaki boşluk */
+    background: linear-gradient(135deg, #f3f4f6, #ffffff); /* Arka plan renk geçişi */
+    border-radius: 15px; /* Köşe yuvarlatma */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    max-width: 1200px; /* Maksimum genişlik */
+    margin: auto; /* Merkezi hizalama */
+    font-family: 'Libre Baskerville', serif; /* Yazı tipi */
+    height: calc(100vh - 80px); /* Yükseklik ayarı */
+}
+
+/* Ödeme başlığı */
+.payment-title {
+    padding: 20px; /* İç boşluk */
+    background: var(--primary-color); /* Arka plan rengi */
+    border-radius: 15px; /* Köşe yuvarlatma */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    max-width: 1200px; /* Maksimum genişlik */
+    margin: auto; /* Merkezi hizalama */
+    font-family: 'Libre Baskerville', serif; /* Yazı tipi */
+    font-size: 32px; /* Yazı boyutu */
+    font-weight: 700; /* Yazı kalınlığı */
+    color: #ffffff; /* Yazı rengi */
+}
+
+
+/* Ödeme formu */
+.payment-form {
+    display: flex; /* Esnek düzen */
+    flex-direction: column; /* Dikey düzen */
+    width: 100%; /* Genişlik */
+    max-width: 400px; /* Maksimum genişlik */
+    background: white; /* Arka plan rengi */
+    padding: 20px; /* İç boşluk */
+    border-radius: 8px; /* Köşe yuvarlatma */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    margin: auto; /* Merkezi hizalama */
+}
+/* Ödeme formu grubu */
+.payment-form-group {
+    margin-bottom: 15px; /* Alt boşluk */
+}
+
+/* Ödeme formu grup etiketi */
+.payment-form-group label {
+    font-size: 14px; /* Yazı boyutu */
+    margin-bottom: 5px; /* Alt boşluk */
+    display: block; /* Blok düzeni */
+    color: #555; /* Yazı rengi */
+}
+
+/* Ödeme formu inputları */
+.payment-form-group input {
+    width: 100%; /* Genişlik */
+    padding: 10px; /* İç boşluk */
+    border: 2px solid #ddd; /* Kenar çizgisi */
+    border-radius: 5px; /* Köşe yuvarlatma */
+    font-size: 16px; /* Yazı boyutu */
+    color: #333; /* Yazı rengi */
+}
+
+/* Ödeme formu input focus */
+.payment-form-group input:focus {
+    border-color: teal; /* Kenar rengi */
+    outline: none; /* Kenar çizgisi */
+}
+
+/* Sipariş verme butonu */
+.payment-submit-button {
+    display: block; /* Butonu tam genişlikte gösterir */
+    width: 100%; /* Tam genişlik */
+    padding: 12px; /* İç boşluk */
+    background-color: var(--primary-color); /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    border: none; /* Kenar çizgisi yok */
+    border-radius: 10px; /* Köşe yuvarlatma */
+    font-size: 18px; /* Yazı boyutu */
+    cursor: pointer; /* İşaretçi */
+    transition: background-color 0.3s ease; /* Renk değişimi geçişi */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+/* Sipariş verme butonu tıklandığında */
+.payment-submit-button:active {
+    background-color: rgb(37, 96, 184); /* Daha fazla koyulaştırma */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Gölgeyi yoğunlaştırma */
+}
+
+/* Sipariş onay mesajı */
+.order-confirmation {
+    font-size: 24px; /* Yazı boyutu */
+    color: green; /* Yazı rengi */
+    display: flex; /* Esnek düzen */
+    flex-direction: column; /* Dikey düzen */
+    width: 100%; /* Genişlik */
+    max-width: 400px; /* Maksimum genişlik */
+    padding: 20px; /* İç boşluk */
+    margin: auto; /* Merkezi hizalama */
+}
+
+

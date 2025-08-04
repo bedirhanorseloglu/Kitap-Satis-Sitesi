@@ -1,0 +1,93 @@
+/* Genel kitap kategorisi stili */
+.category-books {
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #f3f4f6, #ffffff);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Libre Baskerville', serif;
+}
+
+/* Kitaplar ızgara düzeni */
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+/* Tekil kitap öğesi */
+.book-item {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+}
+
+/* Kitap kapak resmi */
+.book-item img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Kitap başlığı */
+.book-item h2 {
+  margin: 15px 20px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+  font-family: 'Libre Baskerville', serif;
+}
+
+/* Hover efektleri */
+.book-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.book-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Başlık stili */
+h1 {
+  color: var(--primary-color);
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+
+
+/*Kitapların altındaki ikonlar*/
+.book-slider-icons-wrapper {
+  display: flex;
+  justify-content: center; /* Yatayda ortalama */
+  align-items: center;     /* Dikeyde ortalama */
+  border-top: 1px solid gray;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.book-slider-icons-wrapper i:hover {
+  color: #007bff;
+}
+
+
+.book-slider-icons-wrapper i {
+  font-size: 27px;
+  cursor: pointer;
+  margin: 0 8px;   /* İkonlar arasındaki yatay boşluk */
+  color: rgb(56, 56, 56);
+  flex-shrink: 0;  /* İkonların küçülmesini engeller */
+}

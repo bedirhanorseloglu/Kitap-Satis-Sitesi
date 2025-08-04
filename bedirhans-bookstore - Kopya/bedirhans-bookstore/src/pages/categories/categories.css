@@ -1,0 +1,55 @@
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f4f4f4; /* Arka plan rengi */
+}
+
+.category {
+  width: 280px; /* Hafif küçültme, daha kompakt görünüm */
+  margin: 20px;
+  text-align: center;
+  background-color: #fff; /* Kartların arka planı beyaz */
+  border-radius: 15px; /* Daha yumuşak kenarlar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover animasyonu için */
+}
+
+.category:hover {
+  transform: translateY(-10px); /* Üstüne imleci gerirdiğimizde  yukarı kaydır */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Hover'da gölgeyi derinleştir */
+}
+
+.category img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0; /* Sadece üst köşeleri yuvarla */
+}
+
+.category h2 {
+  margin-top: 15px;
+  font-size: 1.5em; /* Yazı boyutunu biraz büyüt */
+  font-family: 'Libre Baskerville', serif;  /* Fontu değiştirebilirsiniz */
+  color:var(--primary-color); /* Daha koyu bir metin rengi */
+  text-decoration: none; /* Alt çizgiyi kaldır */
+
+}
+
+.category p {
+  margin: 10px 15px;
+  font-size: 1em;
+  color: #666; /* Açıklama metni için daha açık bir renk */
+  line-height: 1.5;
+}
+
+
+
+/* Link stili */
+.category a {
+  text-decoration: none; /* Alt çizgiyi kaldır */
+  color: inherit; /* Metin rengini miras al */
+}
+
+

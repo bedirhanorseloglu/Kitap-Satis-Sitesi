@@ -1,0 +1,73 @@
+.authors {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+}
+
+.authors-search-wrapper {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.authors-search-wrapper h1 {
+    font-size: 36px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.authors-search-wrapper input {
+    width: 50%;
+    height: 50px;
+    border: 1px solid #ced4da;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.authors-search-wrapper input:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+.authors-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.author {
+    width: 350px;
+    border: 1px solid #ced4da;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.author:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.author-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.author h2 {
+    font-size: 24px;
+    color:var(--primary-color);
+    margin-bottom: 10px;
+    font-weight: bold;
+}

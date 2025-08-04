@@ -1,0 +1,36 @@
+.about {
+    padding: 20px;
+  }
+  
+  .about h1 {
+    font-size: 36px;
+    width: max-content;
+    color: var(--primary-color);
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center; /* İçeriği ortalar */
+    flex-wrap: wrap; /* İçeriğin sarılmasına izin verir */
+    width: 100%;
+  }
+  
+  .about-photo {
+    max-width: 200px; /* Fotoğrafın boyutunu daha küçük yapın */
+    border-radius: 30%; /* Fotoğrafı daha yuvarlak yapın */
+    margin: 0 20px 20px 0; /* Sağda ve altta boşluk */
+  }
+  
+  .about-text {
+    flex: 1; /* Kalan alanı doldur */
+    min-width: 300px; /* Metnin minimum genişliği */
+    font-size: 20px; /* Metnin boyutunu büyütün */
+    text-align: left; /* Metni sola hizalayın */
+  }
+  
+  .about-text p {
+    margin: 10px 0;
+  }
+  
